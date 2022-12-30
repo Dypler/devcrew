@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  font-family:'Roboto','Poppins' sans-serif;
+  --color-black: #1E252B;
+  --color-white: rgba(255, 255, 255, 0.9);
+  --color-gray: rgba(255, 255, 255, 0.55);
+  --color-orange: #FF6E30;
+}
+
+* {
+
+padding: 0;
+margin: 0;
+border: 0;
+}
+body {
+ background-color: var(--color-black); 
+}
+*,
+*:before,
+*:after {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+.container {
+  width: 1224px;
+  margin: 0 auto;
+}
+.title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 140%;
+  color: var(--color-white);
+}
+span {
+  color: var(--color-orange);
+}
+.subtitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-gray);
+}
+

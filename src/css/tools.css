@@ -1,0 +1,124 @@
+.tools {
+    margin-top: 200px;
+}
+.tools__title {
+    text-align: center;
+}
+.tools__subtitle {
+    margin-top: 25px;
+    text-align: center;
+}
+.tools__wrapper {
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: repeat(3, 392px);
+    grid-template-rows: repeat(2, 294px);
+    row-gap: 100px;
+    column-gap: 25px;
+    
+}
+.tools__item {
+    padding: 33px;
+    border-radius: 15px;
+    background-color: var(--color-black);
+    transition: 0.9s;
+}
+.tools__wrapper_title {
+    margin-top: 30px;
+}
+.tools__item_bottom {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tools__button {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: var(--color-black);
+    color: var(--color-gray);
+    cursor: pointer;
+    transition: 0.9s;
+  }
+.tools__button:hover {
+    opacity: 0.7;
+}
+.tools__icons{
+    margin-right: 26px;
+}
+.tools__item:hover {
+    background: rgba(40, 48, 54, 0.6) ;
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    transform: translate(0,-20px);
+    transition: 0.9s;
+}
+.tools__item:hover .tools__button{
+    transition: 0.9s;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+}
+path {
+    transition: 0.9s;
+}
+.tools__item:hover path{
+    fill: red;
+    fill-opacity: 1;
+    transition: 0.9s;   
+}
+.tools__more {
+    display: flex;
+    justify-content: center;
+}
+.tools__more_btn {
+    cursor: pointer;
+    margin-top: 100px;
+    width: 184px;
+    height: 64px;
+    background: #1E252B;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: var(--color-orange);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    transition: 0.5s;
+}
+.tools__more_btn:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.tools__trust {
+    margin-top: 200px;
+    padding: 55px 83px 56px 82px;
+    width: 1224px;
+    height: 253px;
+    left: 108px;
+    top: 2209px;
+    background: rgba(44, 53, 61, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 25px;
+}
+.tools__trust_title {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--color-white);
+}
+.tools__trust_item {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+  
